@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.body {
+  background: #e0eafc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #cfdef3,
+    #e0eafc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #cfdef3,
+    #e0eafc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   min-height: 100vh;
+}
+
+/* NAVBAR */
+
+.navbar {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  padding: 15px 40px;
+  font-family: 'Roboto', sans-serif;
+  background: #717783;
   color: white;
 }
+.list-container {
+  display: flex;
+  list-style: none;
+  width: 150px;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-element {
+  font-size: 1.2em;
 
-.App-link {
-  color: #61dafb;
+}
+.link-nav {
+  text-decoration: none;
+  color: white
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* TASK.JS */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.title-card {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin: 5px 0px;
+  padding: 5px;
+  border-radius: 5px;
+  color: #292727;
+  text-transform: uppercase;
+  color: rgb(184, 178, 178);
+}
+.text-card {
+  font-family: 'Roboto', sans-serif;
+  background: #cfdef3;
+  min-height: 80px;
+  padding: 10px;
+  margin: 15px 0px;
+  border-radius: 5px;
+}
+.btns-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.check-card {
+  width: 22px;
+  height: 22px;
+}
+.delate-btn {
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  background: rgb(196, 84, 84);
+}
+
+/* TaskForm.js */
+
+.input-form {
+  width: 300px;
+  font-size: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  font-family: 'Roboto', sans-serif;
+  background: #cfdef3;
+
+}
+.textarea-form {
+  width: 300px;
+  height: 250px;
+  font-size: 15px;
+  resize: none;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  font-family: 'Roboto', sans-serif;
+  background: #cfdef3;
+
+}
+.btn-form {
+  border: none;
+  background: rgb(80, 70, 70);
+  color: white;
+  width: 200px;
+  height: 30px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 20px;
+  font-size: 17px;
 }
