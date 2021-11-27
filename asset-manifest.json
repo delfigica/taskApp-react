@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/taskApp-react/static/css/main.977b45f1.chunk.css",
+    "main.js": "/taskApp-react/static/js/main.81d08ab3.chunk.js",
+    "main.js.map": "/taskApp-react/static/js/main.81d08ab3.chunk.js.map",
+    "runtime-main.js": "/taskApp-react/static/js/runtime-main.a632eadc.js",
+    "runtime-main.js.map": "/taskApp-react/static/js/runtime-main.a632eadc.js.map",
+    "static/js/2.cb833b8b.chunk.js": "/taskApp-react/static/js/2.cb833b8b.chunk.js",
+    "static/js/2.cb833b8b.chunk.js.map": "/taskApp-react/static/js/2.cb833b8b.chunk.js.map",
+    "index.html": "/taskApp-react/index.html",
+    "static/css/main.977b45f1.chunk.css.map": "/taskApp-react/static/css/main.977b45f1.chunk.css.map",
+    "static/js/2.cb833b8b.chunk.js.LICENSE.txt": "/taskApp-react/static/js/2.cb833b8b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a632eadc.js",
+    "static/js/2.cb833b8b.chunk.js",
+    "static/css/main.977b45f1.chunk.css",
+    "static/js/main.81d08ab3.chunk.js"
+  ]
+}
