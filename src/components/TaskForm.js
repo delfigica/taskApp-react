@@ -25,6 +25,7 @@ const TaskForm = ({addTask}) => {
       <div style={formContainer}>
         <form style={formStyle} onSubmit={onSubmit}>
           <input
+            required
             className="input-form"
             name="title"
             type="text"
@@ -33,6 +34,7 @@ const TaskForm = ({addTask}) => {
             value={title}
           />
           <textarea
+            required
             className="textarea-form"
             name="description"
             placeholder="Write a description"
